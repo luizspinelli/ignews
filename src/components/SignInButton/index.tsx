@@ -6,8 +6,6 @@ import styles from './styles.module.scss';
 export function SignInButton() {
   const [session] = useSession();
 
-  console.log(process.env.STRIPE_API_KEY)
-
   return session ? (
     <button
       type="button"
