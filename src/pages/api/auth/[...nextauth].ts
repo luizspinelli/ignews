@@ -46,5 +46,3 @@ export default NextAuth({
     }
   }
 })
-
-console.log('ola', process.env.GITHUB_ID)
